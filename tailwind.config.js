@@ -26,7 +26,14 @@ module.exports = {
           100: '#FF0000'
         },
       },
-      
+      fontFamily: {
+        montserrat: ["Montserrat-Regular", "sans-serif"],
+        "montserrat-bold": ["Montserrat-Bold", "sans-serif"],
+        "montserrat-semibold": ["Montserrat-SemiBold", "sans-serif"],
+        "montserrat-extrabold": ["Montserrat-ExtraBold", "sans-serif"],
+        "montserrat-light": ["Montserrat-Light", "sans-serif"],
+        "montserrat-medium": ["Montserrat-Medium", "sans-serif"],
+      }
     },
   },
   plugins: [],

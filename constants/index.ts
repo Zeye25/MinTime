@@ -7,6 +7,7 @@ import home from "../assets/icons/homeIcon.png";
 import ladder from "../assets/icons/ladder.png";
 import reload from "../assets/icons/reload.png";
 import timer from "../assets/icons/timerIcon.png";
+import search from "../assets/icons/searchIcon.png"
 
 export const images = {
     add,
@@ -18,4 +19,5 @@ export const images = {
     ladder,
     reload,
     timer,
+    search,
 }

@@ -20,6 +20,9 @@ export default function TabLayout() {
                 height: 110,
                 position: 'absolute',
                 paddingTop: 20,
+                backgroundColor: '#121212',
+                borderTopColor: '#414141',
+                borderTopWidth: 1,
             }
         }}>
             <Tabs.Screen 

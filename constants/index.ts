@@ -8,6 +8,9 @@ import ladder from "../assets/icons/ladder.png";
 import reload from "../assets/icons/reload.png";
 import timer from "../assets/icons/timerIcon.png";
 import search from "../assets/icons/searchIcon.png"
+import filledData from "../assets/icons/filledDataIcon.png";
+import filledHome from "../assets/icons/filledHomeIcon.png";
+import filledTimer from "../assets/icons/filledTimerIcon.png";
 
 export const images = {
     add,
@@ -20,4 +23,7 @@ export const images = {
     reload,
     timer,
     search,
+    filledData,
+    filledHome,
+    filledTimer,
 }

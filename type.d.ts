@@ -4,3 +4,13 @@ interface TabBarIconProps {
     outlinedIcon: ImageSourcePropType;
     title: string;
 }
+
+interface CustomButtonProps {
+    onPress: () => void;
+    title?: string;
+    imgSource?: ImageSourcePropType;
+    style?: string;
+    textStyle?: string;
+    isLoading?: boolean;
+}
+

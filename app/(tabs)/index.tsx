@@ -1,13 +1,24 @@
+import CustomButton from "@/components/CustomButton";
 import { images } from "@/constants";
-import { Image, Text, View } from "react-native";
- 
+import { useState } from "react";
+import { Image, SafeAreaView, Text, View } from "react-native";
+
 export default function Index() {
+  const [isModalVisible, setIsModalVisible] = useState(false);
+
   return (
-    <View className="flex-1 items-center justify-center bg-dark-100">
-      <Text className="text-xl font-montserrat text-primary-100">
-        Welcome to Nativewind!
-      </Text>
-      <Image source={images.timer} className="size-8" resizeMode="contain"/>
-    </View>
+    <SafeAreaView className="flex-1 bg-dark-100">
+      <View className="flex-row justify-start gap-3 py-8 px-10">
+        <Text className="text-3xl font-montserrat-bold text-white-default">
+          Workouts
+        </Text>
+        <CustomButton 
+          imgSource={images.add} 
+          onPress={() => { }} 
+          style="py-1" 
+        />
+      </View>
+    </SafeAreaView>
+
   );
 }
